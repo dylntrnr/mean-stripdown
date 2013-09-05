@@ -10,7 +10,7 @@ window.app.config(['$routeProvider', function($routeProvider) {
           })
         .when('/nflteams/:nflTeamId',
           {
-            templateUrl: 'views/nfl/views.html'
+            templateUrl: 'views/nfl/view.html'
         })
 	.otherwise({redirectTo: '/'});
 }]);
